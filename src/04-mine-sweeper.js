@@ -33,12 +33,10 @@ function minesweeper(matrix) {
         + (prevRow[z] || 0)
         + (prevRow[z + 1] || 0)
         + (row[z - 1] || 0)
-        // cell +
         + (row[z + 1] || 0)
         + (nextRow[z - 1] || 0)
         + (nextRow[z] || 0)
         + (nextRow[z + 1] || 0);
-      // row.splice(z, 1, n);
       newRow.push(n);
     });
     res.push(newRow);
