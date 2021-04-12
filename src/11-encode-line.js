@@ -8,8 +8,11 @@
  * For aabbbc should return 2a3bc
  *
  */
-function encodeLine(/* str */) {
-  throw new Error('Not implemented');
+function encodeLine(str) {
+  // const listStr = str.split('');
+  // listStr.forEach(x);
+  // return listStr.for;
+  return str;
 }
 
 module.exports = encodeLine;
